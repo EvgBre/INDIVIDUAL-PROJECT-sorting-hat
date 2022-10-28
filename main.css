@@ -1,0 +1,133 @@
+body {
+background-color: #8B4000;
+font-family: 'Cormorant', serif;
+padding: 20px 10px 0 10px;
+/* background-repeat: no-repeat; */
+background-size: 100px;
+background-position: 20px 40px;
+/* background-image: url(./images/Hogwarts-crest.png);
+background-repeat: repeat; */
+/* background-blend-mode: lighten; */
+
+}
+.heading {
+text-align: center;
+font-family: 'Cinzel', serif;
+font-size: 2.5em;
+margin: 50px 0;
+}
+#card-groups>h2 {
+width: 40%;
+text-align: center;
+  }
+#form {
+width: 45%;
+margin-left: auto;
+margin-right: auto;
+}
+#welcome {
+width: 30%;
+margin-left: 35%;
+margin-right: 35%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#card-groups {
+display: none;
+justify-content: space-between;
+font-family: 'Cinzel', serif;
+text-shadow: 0 0 3px gold;
+margin: 30px 0 20px 0;
+  }
+.welcome-card {
+text-align: center;
+  }
+.welcome-card-body {
+margin: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+  }
+.welcome-card-title {
+font-size: 30px;
+margin-bottom: 10px;
+}
+.card-text {
+font-size: 20px;
+margin: 10px;
+}
+.card-text {
+    font-size: medium;
+    margin: auto;
+}
+.card-img-top {
+width: 45%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+}
+.btn-group {
+margin-left: auto;
+margin-right: auto;
+}
+.card {
+border-radius: 5px;
+height: 300px;
+margin: 10px;
+flex: 0 1 calc(50% - 20px);
+border: none;
+}
+.card-body {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;   
+}
+.expelled-card-body {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.card-btn {
+margin-top: auto;
+}
+.Gryffindor-card {
+background-color: #D3A625;
+color: #740001;
+}
+
+.Hufflepuff-card {
+background-color: #000000;
+color: #ecb939;
+}
+
+.Slytherin-card {
+background-color: #898989;
+color: #1A472A;
+}
+
+.Ravenclaw-card {
+background-color: #946B2D;
+color: #0E1A40;
+}
+.img-container {
+height: 30%;
+display: flex;
+padding: 10px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+#cards {
+display: flex;
+justify-content: space-between;
+}
+#student-cards,
+#expelled-cards {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
